@@ -11,7 +11,7 @@
     <!-- Navigation -->
     <nav class="bg-blue-600 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="{{ url('/') }}" class="text-white text-xl font-bold">MyApp</a>
+            <a href="{{ url('/') }}" class="text-white text-xl font-bold">Inventory Manger</a>
             <div>
                 <a href="{{ route('products.index') }}" class="text-white px-4">Products</a>
                 @auth
